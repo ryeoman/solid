@@ -19,7 +19,7 @@ func (ed *EmployeeDAO) List() []EmployeeRaw {
 	return []EmployeeRaw{
 		{
 			ID:       1,
-			Name:     "Nico Ivan Cahyadi",
+			Name:     "Nico",
 			Salary:   24000000,
 			Position: 2,
 		},
