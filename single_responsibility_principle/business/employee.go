@@ -9,7 +9,7 @@ type EmployeeList struct {
 	employeeDAO EmployeeDAO
 }
 
-func (el *EmployeeList) List() []Employee {
+func (el *EmployeeList) All() []Employee {
 	employeeRaws := el.employeeDAO.List()
 
 	employees := make([]Employee, 0, len(employeeRaws))

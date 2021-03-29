@@ -6,7 +6,7 @@ import (
 
 func main() {
 	employeeList := EmployeeList{}
-	employees := employeeList.List()
+	employees := employeeList.All()
 
 	for _, employee := range employees {
 		employee.PrintPaySlip()
