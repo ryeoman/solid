@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "github.com/ryeoman/solid/single_responsibility_principle/business"
+	. "github.com/ryeoman/solid/case_employee/business"
 )
 
 func main() {

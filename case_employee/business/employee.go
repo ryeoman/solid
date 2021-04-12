@@ -1,8 +1,8 @@
 package business
 
 import (
-	. "github.com/ryeoman/solid/single_responsibility_principle/dao"
-	. "github.com/ryeoman/solid/single_responsibility_principle/entity"
+	. "github.com/ryeoman/solid/case_employee/dao"
+	. "github.com/ryeoman/solid/case_employee/entity"
 )
 
 type EmployeeList struct {

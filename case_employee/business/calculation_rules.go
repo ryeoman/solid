@@ -1,7 +1,7 @@
 package business
 
 import (
-	. "github.com/ryeoman/solid/single_responsibility_principle/entity"
+	. "github.com/ryeoman/solid/case_employee/entity"
 )
 
 // define employee position
